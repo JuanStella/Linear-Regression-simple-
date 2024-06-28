@@ -15,7 +15,7 @@ class LinearRegression:
         self.b = 0
 
     def load_data(self):
-        with open('D:\\ML\\MyProgress\\Linear Regression\\Salary Dataset (Linear Regression)\\Salary_dataset.csv', 'r') as file:
+        with open('D:\ML\MyProgress\Linear Regression\First-Linear-Regression\Salary Dataset (Linear Regression)\\Salary_dataset.csv', 'r') as file:
             data = file.readlines()
             for line in data:
                 self.datalen += 1
